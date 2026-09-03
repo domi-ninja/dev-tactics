@@ -4,8 +4,8 @@ A living list of practical rules I want close at hand while building software.
 
 ## General
 
-- Keep all data and config eiter 1) in a database, 2) as text files checked into git or 3) secret managers. 
-  - `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but not at work.
+- Keep all data, config and credentials eiter 1) in a database, 2) as text files checked into git or 3) secret/password managers. 
+  - `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but migrate away from them at work as fast as possible. The setup cost of "hey where can i get the credential for x" alone is worth fixing this.
   - .NET/Visual Studio offering a way to load secrets from a file in AppData is a bad practice. It will be forgotten and weaken your developer security for years to come.
 
 ## Git
