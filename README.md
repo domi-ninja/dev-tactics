@@ -5,8 +5,8 @@ A living list of practical rules I want close at hand while building software.
 ## Data
 
 - Keep data in a database or version-controlled text.
-- `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but not at work.
-- Microsoft putting secrets in a file that is not named `.env` does not make it a different pattern.
+  - `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but not at work.
+  - Microsoft putting secrets in a file that is not named `.env` does not make it a different pattern.
 
 ## Git
 
