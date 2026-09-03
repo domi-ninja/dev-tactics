@@ -15,7 +15,7 @@ A living list of practical rules I want close at hand while building software.
 ## Security and bus factor
 
 - Two-factor authentication apps and their reset procedures all suck. Keep a spare phone with authentication set up in case the main phone is lost or bricked.
-- Some authentication apps sign out inactive devices. Test the spare every three months.
+  - Some authentication apps sign out inactive devices. Test the spare every three months.
 
 ## Windows
 
