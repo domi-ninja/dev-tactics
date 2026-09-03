@@ -27,4 +27,4 @@ A living list of practical rules I want close at hand while building software.
 ## Web development
 
 - Web development is mostly solved. If a large part of an application feels unusually hard, I am probably missing a tool, pattern, or piece of information.
-- To clean up a CSS codebase buried under `!important`, first inventory every view at each supported resolution and capture screenshots. Use them as visual regression tests while removing the overrides.
+- To clean up a CSS codebase buried under `!important`, first inventory every view at each supported resolution and capture screenshots of all of them, in different resolutions, using a visual regression test with playwright or something like this. This will tell you about accidental visual changes during the css cleanup/refactor.
