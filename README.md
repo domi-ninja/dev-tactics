@@ -6,7 +6,7 @@ A living list of practical rules I want close at hand while building software.
 
 - Keep all data and config eiter 1) in a database, 2) as text files checked into git or 3) secret managers. 
   - `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but not at work.
-  - Microsoft putting secrets in a file in AppData is bad. It will be forgotten and weaken your developer security for years to come, while it languishes on in your home directory.
+  - .NET/Visual Studio offering a way to load secrets from a file in AppData is a bad practice. It will be forgotten and weaken your developer security for years to come.
 
 ## Git
 
