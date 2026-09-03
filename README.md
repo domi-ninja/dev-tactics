@@ -2,11 +2,11 @@
 
 A living list of practical rules I want close at hand while building software.
 
-## Data
+## General
 
-- Keep data in a database or version-controlled text.
+- Keep all data and config eiter 1) in a database, 2) as text files checked into git or 3) secret managers. 
   - `.env`-style secrets are an acceptable exception for personal, solo, and open projects, but not at work.
-  - Microsoft putting secrets in a file that is not named `.env` does not make it a different pattern.
+  - Microsoft putting secrets in a file in AppData is bad. It will be forgotten and weaken your developer security for years to come, while it languishes on in your home directory.
 
 ## Git
 
