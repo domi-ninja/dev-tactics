@@ -1,4 +1,4 @@
-# Developer tactics
+# Software Developer Tactics
 
 A living list of practical rules I want close at hand while building software.
 
